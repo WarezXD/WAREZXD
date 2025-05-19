@@ -23,7 +23,7 @@ handler.help = ['kick @user']
 handler.tags = ['group']
 handler.command = /^(kic?k|remove|tendang|\-)$/i
 
+handler.admin = true
 handler.group = true
-handler.botAdmin = true
 
 module.exports = handler
